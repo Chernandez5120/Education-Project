@@ -1,0 +1,24 @@
+# Firebase Configuration Example
+# Copy this file to src/firebase.js and replace with your actual Firebase config values
+
+const firebaseConfig = {
+  apiKey: "your-api-key-here",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "your-sender-id",
+  appId: "your-app-id"
+};
+
+# How to get these values:
+# 1. Go to Firebase Console (https://console.firebase.google.com/)
+# 2. Create a new project or select existing one
+# 3. Go to Project Settings (gear icon)
+# 4. Scroll down to "Your apps" section
+# 5. Click "Add app" and select Web app
+# 6. Copy the config object values from the setup screen
+
+# Required Firebase setup:
+# 1. Enable Authentication with Google provider
+# 2. Create Firestore database
+# 3. Set up Firestore security rules (see README.md)
